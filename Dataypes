@@ -1,0 +1,66 @@
+s="Yamini sakiri"
+word=s.split()
+#print (word)
+print (word[0]) 
+
+Hi= "hello world"
+Hii= Hi.upper()
+print (Hii)
+
+
+str1="Yamini"
+str2="Sakiri"
+#str=(str1 "str2)
+print(str1+" "+str2)
+
+
+
+str="yamini is good"
+print(str.replace("good","bad"))
+
+
+str="yamini is good"
+print(str.upper())
+str1= str.upper()   
+print (str1)
+
+
+
+S="yamini is good"
+print(S.replace("good","better"))
+
+
+
+S="Hi this is yamini sakiri"
+txt=len(S)
+print (txt)
+print(len(S))
+print(S.upper())
+print(S.lower())
+print(S.split())
+
+
+
+txt=" yamini is good  "
+hi=txt.strip()
+print(hi)
+
+
+
+
+
+txt="yamini is good"
+substring="good"
+if substring in txt:
+    print("yes")
+
+
+num1=10.2
+num2=20.3
+
+print(num1+num2)
+print(num1-num2)
+print(num1*num2)
+print(num1/num2)
+print(num1//num2)
+print(num1%num2)    
